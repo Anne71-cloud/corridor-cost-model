@@ -53,7 +53,7 @@ The exposure figure is a **range being carried, not a cost**. Roughly two thirds
 
 | Input | Source | Status |
 |---|---|---|
-| FX volatility | Realised annualised volatility from daily closes (Yahoo Finance), computed as `stdev(log returns) × √252` | Reproducible — see `volatility.py` |
+| FX volatility | Realised 90-day annualised volatility from daily closes, Yahoo Finance, retrieved 08 September 2026. EUR/ZAR 8.0%, EUR/USD 4.5%, USD/ZAR 10.7% | Reproducible — see `volatility.py` |
 | Cost of capital | South African Reserve Bank published prime rate, used as a stated proxy | Public |
 | FX spread | Published bank tariff sheets; World Bank Remittance Prices Worldwide decomposes cost into fee and FX margin per corridor | Public |
 | Fixed fees | Published bank tariff sheets | Public |
