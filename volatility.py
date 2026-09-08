@@ -36,7 +36,7 @@ import pandas as pd
 DEFAULT_PAIRS = {
     "EURZAR=X": "EUR / ZAR  (South Africa)",
     "EURUSD=X": "EUR / USD  (offshore settlement)",
-    "USDNGN=X": "USD / NGN  (Nigeria)",
+    
     "USDZAR=X": "USD / ZAR  (South Africa, USD leg)",
 }
 
