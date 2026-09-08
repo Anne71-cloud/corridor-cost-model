@@ -59,6 +59,8 @@ The exposure figure is a **range being carried, not a cost**. Roughly two thirds
 | Fixed fees | Published bank tariff sheets | Public |
 | Settlement delay | SWIFT gpi published statistics | Public |
 
+The NGN corridor was removed: Yahoo's series carries stale quotes that suppress the standard deviation and understate volatility. CDF volatility remains illustrative — there is no reliable public market series for the Congolese franc.
+
 ### Corridor presets are illustrative
 
 The corridor dropdown loads a starting volatility, spread and delay so the model has somewhere to begin. **These are illustrative, not measurements, and should not be quoted as such.** Every one of them is meant to be overridden with your own figures.
